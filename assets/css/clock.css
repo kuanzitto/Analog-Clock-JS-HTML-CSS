@@ -145,3 +145,61 @@ h2 {
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
     rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
+
+
+                                                    /*________________ Mobile Screen Adaptation _______________*/
+
+
+@media screen and (max-width: 414px) {
+    
+    .titles {
+        top: 8px;
+        position: relative;
+        font-size: 12pt;
+    }
+
+    .clock {
+        top: -59px;
+        right: 66px;
+        position: relative;
+        transform: scale(.54);
+    
+    }
+}
+
+@media screen and (max-width: 390px) {
+    
+    .clock {
+        top: -78px;
+        right: 84px;
+        position: relative;
+        transform: scale(.5);
+    }
+}
+  
+@media screen and (max-width: 360px) {
+    
+    .clock {
+        top: -78px;
+        right: 97px;
+        position: relative;
+        transform: scale(.48);
+    }
+}  
+  
+@media screen and (max-width: 320px) {
+
+    .titles {
+        top: 10px;
+        position: relative;
+        font-size: 9pt;
+    }
+
+    .clock {
+        top: -110px;
+        right: 120px;
+        position: relative;
+        transform: scale(.44);
+    }
+}
